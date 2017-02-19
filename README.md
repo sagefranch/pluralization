@@ -8,4 +8,6 @@ This demo is a simple bot that takes the user input and spits back the singular 
 
 This implements Microsoft Bot Framework in C#. 
 
-To run the project, generate your bot app ID, key and password at botframework.com, and input them into the fields in the web.config file.
+TWO KEY THINGS to get this project to run:
+      To run the project, generate your bot app ID, key and password at botframework.com, and input them into the fields in the web.config file.
+      In the VS solution explorer, right click on References, go to Add References, and select System.Data.Entity.Design. Add it to your references. 
